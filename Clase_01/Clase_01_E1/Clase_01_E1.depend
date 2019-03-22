@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1553044716 source:d:\rolón laboratorio i\programacion_1_laboratorio_1\clase_01\clase_01_e1\main.c
+1553213288 source:d:\rolón laboratorio i\programacion_1_laboratorio_1\clase_01\clase_01_e1\main.c
 	<stdio.h>
 	<stdlib.h>
+	<limits.h>
 
