@@ -9,6 +9,7 @@ int secondNumber(float *numberTwo);
 int addNumbers(float addFirstNumber, float addSecondNumber);
 int substractNumbers(float subFirstNumber, float subSecondNumber);
 int multiplyNumbers(float multiFirstNumber, float multiSecondNumber);
+int factorizeNumbers(float factorFirstNumber);
 
 int main()
 {
@@ -54,7 +55,7 @@ int main()
                 multiplyNumbers(numberOne, numberTwo);
                 break;
             case 7:
-
+                factorizeNumbers(numberOne);
                 break;
             case 8:
 
@@ -90,7 +91,7 @@ int addNumbers(float addFirstNumber, float addSecondNumber)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputTwo == 1 || confirmInputTwo == 1)
+    if (confirmInputOne == 1 || confirmInputTwo == 1)
     {
         mathResult = addFirstNumber + addSecondNumber;
         printf("\nLa suma es: %f", mathResult);
@@ -106,7 +107,7 @@ int substractNumbers(float subFirstNumber, float subSecondNumber)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputTwo == 1 || confirmInputTwo == 1)
+    if (confirmInputOne == 1 || confirmInputTwo == 1)
     {
         mathResult = subFirstNumber - subSecondNumber;
         printf("\nLa resta es: %f", mathResult);
@@ -122,7 +123,7 @@ int multiplyNumbers(float multiFirstNumber, float multiSecondNumber)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputTwo == 1 || confirmInputTwo == 1)
+    if (confirmInputOne == 1 || confirmInputTwo == 1)
     {
         mathResult = multiFirstNumber * multiSecondNumber;
         printf("\nEl producto es: %f", mathResult);
@@ -130,6 +131,26 @@ int multiplyNumbers(float multiFirstNumber, float multiSecondNumber)
     }else
     {
         printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
+    }
+    return returnValue;
+}
+
+int factorizeNumbers(float factorFirstNumber)
+{
+    int returnValue = -1;
+    float mathResult = 0;
+    int i;
+    if (confirmInputOne == 1)
+    {
+        for(i = factorFirstNumber - 1;i>0;i--)
+        {
+            mathResult = mathResult + factorFirstNumber * i;
+        }
+        printf("\nLa factorizacion es: %f", mathResult);
+        returnValue = 0;
+    }else
+    {
+        printf("ERROR: No se ha ingresado el primer operando.");
     }
     return returnValue;
 }
