@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
-int confirmInputOne = 0;
-int confirmInputTwo = 0;
-//cambiar formato de variables globales a funciones
+
 int firstNumber(float *numberOne);
 int secondNumber(float *numberTwo);
-int addNumbers(float addFirstNumber, float addSecondNumber);
-int substractNumbers(float subFirstNumber, float subSecondNumber);
-int multiplyNumbers(float multiFirstNumber, float multiSecondNumber);
-int factorizeNumbers(float factorFirstNumber);
+int addNumbers(float addFirstNumber, float addSecondNumber, int confirmInputs);
+int substractNumbers(float subFirstNumber, float subSecondNumber, int confirmInputs);
+int multiplyNumbers(float multiFirstNumber, float multiSecondNumber, int confirmInputs);
+int factorizeNumbers(float factorFirstNumber, int confirmInputs);
 
 int main()
 {
@@ -17,6 +15,9 @@ int main()
     int opcion=0;
     float numberOne;
     float numberTwo;
+    int confirmInputOne = -1;
+    int confirmInputTwo = -1;
+    int confirmedInputs = -1;
 
     while(seguir=='s')
     {
@@ -35,27 +36,25 @@ int main()
         switch(opcion)
         {
             case 1:
-                firstNumber(&numberOne);
-                confirmInputOne = 1;
+                confirmInputOne = firstNumber(&numberOne);
                 break;
             case 2:
-                secondNumber(&numberTwo);
-                confirmInputTwo = 1;
+                confirmInputTwo = secondNumber(&numberTwo);
                 break;
             case 3:
-                addNumbers(numberOne, numberTwo);
+                addNumbers(numberOne, numberTwo, confirmedInputs);
                 break;
             case 4:
-                substractNumbers(numberOne, numberTwo);
+                substractNumbers(numberOne, numberTwo, confirmedInputs);
                 break;
             case 5:
 
                 break;
             case 6:
-                multiplyNumbers(numberOne, numberTwo);
+                multiplyNumbers(numberOne, numberTwo, confirmedInputs);
                 break;
             case 7:
-                factorizeNumbers(numberOne);
+                factorizeNumbers(numberOne, confirmInputOne);
                 break;
             case 8:
 
@@ -65,7 +64,12 @@ int main()
                 seguir = 'n';
                 break;
         }
+        if(confirmInputOne == 0 && confirmInputTwo == 0)
+        {
+            confirmedInputs = 0;
+        }
     }
+
     return 0;
 }
 
@@ -87,70 +91,72 @@ int secondNumber(float *numberTwo)
     return 0;
 }
 
-int addNumbers(float addFirstNumber, float addSecondNumber)
+
+int addNumbers(float addFirstNumber, float addSecondNumber, int confirmInputs)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputOne == 1 || confirmInputTwo == 1)
+    if (confirmInputs)
+    {
+        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
+    }else
     {
         mathResult = addFirstNumber + addSecondNumber;
         printf("\nLa suma es: %f", mathResult);
         returnValue = 0;
-    }else
-    {
-        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
     }
     return returnValue;
 }
 
-int substractNumbers(float subFirstNumber, float subSecondNumber)
+int substractNumbers(float subFirstNumber, float subSecondNumber, int confirmInputs)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputOne == 1 || confirmInputTwo == 1)
+    if (confirmInputs)
+    {
+        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
+    }else
     {
         mathResult = subFirstNumber - subSecondNumber;
         printf("\nLa resta es: %f", mathResult);
         returnValue = 0;
-    }else
-    {
-        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
     }
     return returnValue;
 }
 
-int multiplyNumbers(float multiFirstNumber, float multiSecondNumber)
+int multiplyNumbers(float multiFirstNumber, float multiSecondNumber, int confirmInputs)
 {
     int returnValue = -1;
     float mathResult;
-    if (confirmInputOne == 1 || confirmInputTwo == 1)
+    if (confirmInputs)
+    {
+        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
+
+    }else
     {
         mathResult = multiFirstNumber * multiSecondNumber;
         printf("\nEl producto es: %f", mathResult);
         returnValue = 0;
-    }else
-    {
-        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
     }
     return returnValue;
 }
 
-int factorizeNumbers(float factorFirstNumber)
+int factorizeNumbers(float factorFirstNumber, int confirmInputs)
 {
     int returnValue = -1;
-    float mathResult = 0;
+    float mathResult = factorFirstNumber;
     int i;
-    if (confirmInputOne == 1)
+    if (confirmInputs)
+    {
+        printf("ERROR: No se ha ingresado el primer operando.");
+    }else
     {
         for(i = factorFirstNumber - 1;i>0;i--)
         {
-            mathResult = mathResult + factorFirstNumber * i;
+            mathResult = mathResult * i;
         }
         printf("\nLa factorizacion es: %f", mathResult);
         returnValue = 0;
-    }else
-    {
-        printf("ERROR: No se ha ingresado el primer operando.");
     }
     return returnValue;
 }
