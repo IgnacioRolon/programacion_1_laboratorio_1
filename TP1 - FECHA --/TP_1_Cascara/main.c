@@ -3,7 +3,7 @@
 #include "funciones.h"
 int confirmInputOne = 0;
 int confirmInputTwo = 0;
-
+//cambiar formato de variables globales a funciones
 int firstNumber(float *numberOne);
 int secondNumber(float *numberTwo);
 int addNumbers(float addFirstNumber, float addSecondNumber);
