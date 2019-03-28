@@ -22,8 +22,20 @@ int main()
 
     while(seguir=='s')
     {
-        printf("\n \n1- Ingresar 1er operando (A=x)\n");
-        printf("2- Ingresar 2do operando (B=y)\n");
+        if (confirmInputOne == 0)
+        {
+            printf("\n \n1- Ingresar 1er operando (A=%f)\n", numberOne);
+        }else
+        {
+            printf("\n \n1- Ingresar 1er operando (A=x)\n");
+        }
+        if (confirmInputTwo == 0)
+        {
+            printf("2- Ingresar 2do operando (B=%f)\n", numberTwo);
+        }else
+        {
+            printf("2- Ingresar 2do operando (B=x)\n");
+        }
         printf("3- Calcular la suma (A+B)\n");
         printf("4- Calcular la resta (A-B)\n");
         printf("5- Calcular la division (A/B)\n");
@@ -58,14 +70,19 @@ int main()
                 factorizeNumbers(numberOne, confirmInputOne);
                 break;
             case 8:
-                addNumbers(numberOne, numberTwo, confirmedInputs);
-                substractNumbers(numberOne, numberTwo, confirmedInputs);
-                divideNumbers(numberOne, numberTwo, confirmedInputs);
-                multiplyNumbers(numberOne, numberTwo, confirmedInputs);
-                factorizeNumbers(numberOne, confirmInputOne);
+                if(confirmedInputs)
+                {
+                    addNumbers(numberOne, numberTwo, confirmedInputs);
+                    substractNumbers(numberOne, numberTwo, confirmedInputs);
+                    divideNumbers(numberOne, numberTwo, confirmedInputs);
+                    multiplyNumbers(numberOne, numberTwo, confirmedInputs);
+                    factorizeNumbers(numberOne, confirmInputOne);
+                }else
+                {
+                    printf("ERROR: No se ha ingresado alguno de los 2 operandos.")
+                }
                 break;
             case 9:
-
                 seguir = 'n';
                 break;
         }
