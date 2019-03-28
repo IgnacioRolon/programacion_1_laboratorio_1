@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1553628327 source:c:\users\ignir\desktop\escritorio\programacion\programacion_1_laboratorio_1\tp1 - fecha --\tp_1_cascara\main.c
+1553801575 source:c:\users\ignir\desktop\escritorio\programacion\programacion_1_laboratorio_1\tp1 - fecha --\tp_1_cascara\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
 
-1457052376 c:\users\ignir\desktop\escritorio\programacion\programacion_1_laboratorio_1\tp1 - fecha --\tp_1_cascara\funciones.h
+1553800987 c:\users\ignir\desktop\escritorio\programacion\programacion_1_laboratorio_1\tp1 - fecha --\tp_1_cascara\funciones.h
 
 1553648296 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP1 - FECHA --/TP_1_Cascara/main.c
 	<stdio.h>

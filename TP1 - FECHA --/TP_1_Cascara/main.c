@@ -8,6 +8,7 @@ int addNumbers(float addFirstNumber, float addSecondNumber, int confirmInputs);
 int substractNumbers(float subFirstNumber, float subSecondNumber, int confirmInputs);
 int multiplyNumbers(float multiFirstNumber, float multiSecondNumber, int confirmInputs);
 int factorizeNumbers(float factorFirstNumber, int confirmInputs);
+int divideNumbers(float divideFirstNumber, float divideSecondNumber, int confirmInputs);
 
 int main()
 {
@@ -48,7 +49,7 @@ int main()
                 substractNumbers(numberOne, numberTwo, confirmedInputs);
                 break;
             case 5:
-
+                divideNumbers(numberOne, numberTwo, confirmedInputs);
                 break;
             case 6:
                 multiplyNumbers(numberOne, numberTwo, confirmedInputs);
@@ -57,7 +58,11 @@ int main()
                 factorizeNumbers(numberOne, confirmInputOne);
                 break;
             case 8:
-
+                addNumbers(numberOne, numberTwo, confirmedInputs);
+                substractNumbers(numberOne, numberTwo, confirmedInputs);
+                divideNumbers(numberOne, numberTwo, confirmedInputs);
+                multiplyNumbers(numberOne, numberTwo, confirmedInputs);
+                factorizeNumbers(numberOne, confirmInputOne);
                 break;
             case 9:
 
@@ -157,6 +162,29 @@ int factorizeNumbers(float factorFirstNumber, int confirmInputs)
         }
         printf("\nLa factorizacion es: %f", mathResult);
         returnValue = 0;
+    }
+    return returnValue;
+}
+
+int divideNumbers(float divideFirstNumber, float divideSecondNumber, int confirmInputs)
+{
+    int returnValue = -1;
+    float mathResult;
+    if (confirmInputs)
+    {
+        printf("ERROR: No se ha ingresado alguno de los 2 operandos.");
+
+    }else
+    {
+        if(divideSecondNumber == 0)
+        {
+            printf("ERROR: La division no puede ser por cero.");
+        }else
+        {
+            mathResult = divideFirstNumber / divideSecondNumber;
+            printf("\nLa division es: %f", mathResult);
+            returnValue = 0;
+        }
     }
     return returnValue;
 }
