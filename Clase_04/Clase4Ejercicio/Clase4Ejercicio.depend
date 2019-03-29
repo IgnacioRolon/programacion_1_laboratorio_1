@@ -1,5 +1,12 @@
 # depslib dependency file v1.0
-1553819417 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_04/Clase4Ejercicio/main.c
+1553821454 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_04/Clase4Ejercicio/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1553821366 /home/alumno/Rolon/programacion_1_laboratorio_1/Clase_04/Clase4Ejercicio/funciones.h
+
+1553821852 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_04/Clase4Ejercicio/funciones.c
 	<stdio.h>
 	<stdlib.h>
 
