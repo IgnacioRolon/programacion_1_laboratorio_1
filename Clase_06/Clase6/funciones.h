@@ -5,3 +5,4 @@ int isValidFloat(float number, float minimum, float maximum);
 int getChar(char *message, char *errorMessage, char minimum, char maximum, int retries, char *input);
 int isValidChar(char letter, char minimum, char maximum);
 int isStrOnlyChar(char buffer[]); //analiza un array de caracteres. Devuelve 0 si algun caracter NO es letra.
+// int getString(char *message, char *errorMessage, char minimum, char maximum, int retries, char *input);

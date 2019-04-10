@@ -4,15 +4,16 @@
 	<stdlib.h>
 	<string.h>
 
-1554851143 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/main.c
+1554855626 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"funciones.h"
 
-1554851044 /home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/funciones.h
+1554855287 /home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/funciones.h
 
-1554851129 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/funciones.c
+1554856804 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase_06/Clase6/funciones.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 

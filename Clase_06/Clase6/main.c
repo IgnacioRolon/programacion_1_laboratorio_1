@@ -3,6 +3,8 @@
 #include <string.h>
 #include "funciones.h"
 #define MAXSIZE 256
+#define MINSIZE 4
+#define RETRIES 3
 /*
     strncpy(nombre, nombre2,sizeof(nombre));
     printf("\n%s", nombre);
@@ -12,6 +14,7 @@
 
 int main()
 {
+    /*
     char buffer[MAXSIZE];
     char name[MAXSIZE];
     printf("Ingrese su nombre: ");
@@ -24,6 +27,9 @@ int main()
     {
         printf("\nSu nombre no es valido.");
     }
-
+    */
+    char buffer[25];
+    getString("Ingrese el string", "Error", 4, 25, 3, buffer);
+    printf("%s", buffer);
 }
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 int isValidInt(int number, int minimum, int maximum)
 {
     if(number >= minimum && number <= maximum)
@@ -106,6 +106,40 @@ int getChar(char *message, char *errorMessage, char minimum, char maximum, int r
     }
     return returnValue;
 }
+/*
+
+int getString(char *message, char *errorMessage, int minimum, int maximum, int retries, char *input) //minima cantidad y maxima cantidad
+{
+    char bufferString[maximum];
+    int bufferLength;
+    int returnValue = -1;
+    if(message != NULL && errorMessage != NULL && input != NULL && maximum >= minimum && retries >= 0)
+    {
+        do
+        {
+            printf("%s", message);
+            fgets(bufferString, sizeof(bufferString), stdin);
+            bufferLength = strlen(bufferString);
+            bufferString[bufferLength - 1] = '\0';
+            if(bufferLength < minimum + 1)
+            {
+                printf("%s", errorMessage);
+            }else
+            {
+                returnValue = 0;
+                strncpy(input, bufferString, maximum);
+                break;
+            }
+            //fflush(stdin); para windows
+            retries--;
+        }while(retries >= 0);
+    }
+    return returnValue;
+}
+*/
+
+
+
 
 int isStrOnlyChar(char buffer[])
 {
@@ -122,4 +156,5 @@ int isStrOnlyChar(char buffer[])
     }
     return retorno;
 }
+
 
