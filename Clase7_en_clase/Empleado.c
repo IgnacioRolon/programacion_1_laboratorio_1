@@ -40,3 +40,17 @@ int emp_altaArray(Empleado array[], int limite, int id)
     array[index].isEmpty = 0;
     return 0;
 }
+
+int emp_bajaArray(Empleado array[], int limite, int id)
+{
+    int i;
+    for(i=0;i<limite;i++)
+    {
+        if(array[i].idEmpleado == id)
+        {
+            array[i].isEmpty = 1;
+            break;
+        }
+    }
+}
+

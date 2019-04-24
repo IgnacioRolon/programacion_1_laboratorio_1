@@ -123,19 +123,8 @@ int main()
             }
             case 4:
             {
-                // PIDO NOMBRE
-                //utn_getString(buffer,...)
-                fgets(buffer,20,stdin);buffer[strlen(buffer)-1]='\0';
-
-                // en buffer esta el nombre
-                buscarNombre(buffer,
-                            nombres,
-                            LEN_LISTA,
-                            &posAeliminar);
-
-                // borro
-                nombres[posAeliminar][0]='\0';
-
+                utn_getNumber(&opcion, "\nIngrese la ID a dar de baja: ", "NO!", 1,10,2);
+                emp_bajaArray(empleados,LIMITE,opcion);
                 break;
             }
         }
