@@ -1,26 +1,11 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include "utn.h"
+#include "Empleado.h"
 
 #define LEN_LISTA    100
-
-typedef struct
-{
-    int idEmpleado;
-    int isEmpty;
-    //------------------
-    char nombre[50];
-}Empleado;
-
-
-/*
-Empleado auxiliarEmpleado[500];
-Empleado *pEmpleado;
-
-pEmpleado = &auxiliarEmpleado[114];
-pEmpleado->apellido
-*/
-
+#define LIMITE 50
 
 
 
@@ -76,14 +61,20 @@ int main()
     int i,posLibre, posAeliminar;
     char buffer[20];
 
+    int idEmp = 0;
+    int freeIndex;
+
+    Empleado empleados[LIMITE];
+
+    emp_initArray(empleados, LIMITE);
+
     for(i=0; i<LEN_LISTA;i++)
         nombres[i][0]='\0';
 
     while(1)
     {
-
         utn_getNumber(&opcion,
-                      "1)ingresar\n2)listar,4)eliminar\n",
+                      "\n1)ingresar\n2)listar\n4)eliminar\n",
                       "NO!",
                       1,10,2);
 
@@ -92,6 +83,10 @@ int main()
         {
             case 1:
             {
+
+                emp_altaArray(empleados, LIMITE, idEmp);
+                idEmp++;
+                /*
                 printf("agregar nombre\n");
 
                 if(buscarLibre(nombres,LEN_LISTA,&posLibre)==0)
@@ -112,7 +107,18 @@ int main()
                         printf("-%d: %s\n",i,nombres[i]);
 
                 }
-
+                */
+                break;
+            }
+            case 2:
+            {
+                //Forma primitiva. No funcionaria en proyecto final.
+                printf("\n");
+                emp_lugarLibreArray(empleados,LIMITE,&freeIndex);
+                for(i=0;i<freeIndex;i++)
+                {
+                    printf("ID: %d - Nombre: %s", empleados[i].idEmpleado, empleados[i].nombre);
+                }
                 break;
             }
             case 4:

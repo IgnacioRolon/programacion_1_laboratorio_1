@@ -12,10 +12,12 @@
 
 1555021580 /home/profesor/Ernesto/LABO12019/Clase7/Clase7/utn.h
 
-1556056052 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase7_en_clase/main.c
+1556065736 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase7_en_clase/main.c
 	<stdio.h>
+	<string.h>
 	<stdlib.h>
 	"utn.h"
+	"Empleado.h"
 
 1555021580 /home/alumno/Rolon/programacion_1_laboratorio_1/Clase7_en_clase/utn.h
 
@@ -24,4 +26,11 @@
 	<stdlib.h>
 	<string.h>
 	"utn.h"
+
+1556066122 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Clase7_en_clase/Empleado.c
+	"Empleado.h"
+	<string.h>
+	<stdio.h>
+
+1556063823 /home/alumno/Rolon/programacion_1_laboratorio_1/Clase7_en_clase/Empleado.h
 
