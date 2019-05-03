@@ -1,0 +1,333 @@
+# depslib dependency file v1.0
+1556215537 source:g:\utn\programacion_laboratorio 1\testing code\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"utn_strings.h"
+
+1556833188 gs.h"
+
+1556175316 g:\utn\programacion_laboratorio 1\testing code\empleado.h
+
+1556176099 g:\utn\programacion_laboratorio 1\testing code\utn_strings.h
+
+1556221631 source:g:\utn\programacion_laboratorio 1\testing code\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+
+1556780878 h"
+
+1556217911 source:g:\utn\programacion_laboratorio 1\testing code\utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Empleado.h"
+
+1556216372 g:\utn\programacion_laboratorio 1\testing code\pantalla.h
+
+1556220279 source:g:\utn\programacion_laboratorio 1\testing code\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"utn_strings.h"
+
+1556222341 source:/home/alumno/Documentos/Modelos-master/ABM_Pantalla/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"utn_strings.h"
+
+1556222341 /home/alumno/Documentos/Modelos-master/ABM_Pantalla/Empleado.h
+
+1556234587 /home/alumno/Documentos/Modelos-master/ABM_Pantalla/utn_strings.h
+
+1556239768 source:/home/alumno/Documentos/Modelos-master/ABM_Pantalla/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+
+1556239777 /home/alumno/Documentos/Modelos-master/ABM_Pantalla/Pantalla.h
+
+1556240767 source:/home/alumno/Documentos/Modelos-master/ABM_Pantalla/Pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"utn_strings.h"
+
+1556234508 source:/home/alumno/Documentos/Modelos-master/ABM_Pantalla/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Empleado.h"
+
+1556782912 source:c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556833188 d.h"
+
+1556751844 c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\utn_strings.h
+
+1556774427 c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\pantalla.h
+
+1556776737 source:c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556780878 source:c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Empleado.h"
+
+1556751844 c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\empleado.h
+
+1556782543 c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\publicidad.h
+
+1556782613 source:c:\users\baldi\desktop\modelos-master\modelos-master\abm_pantalla\publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556819551 source:g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556751844 g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\utn_strings.h
+
+1556774427 g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\pantalla.h
+
+1556782543 g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\publicidad.h
+
+1556819503 source:g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556782613 source:g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556780878 source:g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Empleado.h"
+
+1556751844 g:\utn\programacion_laboratorio 1\modelos\abm_pantalla\empleado.h
+
+1556832815 source:/home/profesor/Descargas/ABM_Pantalla/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556832815 /home/profesor/Descargas/ABM_Pantalla/utn_strings.h
+
+1556832814 /home/profesor/Descargas/ABM_Pantalla/Pantalla.h
+
+1556832815 /home/profesor/Descargas/ABM_Pantalla/Publicidad.h
+
+1556832814 source:/home/profesor/Descargas/ABM_Pantalla/Pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556832815 source:/home/profesor/Descargas/ABM_Pantalla/Publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556832941 source:/home/profesor/Descargas/ABM_Pantalla/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/utn_strings.h
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/Pantalla.h
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/Publicidad.h
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/Pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/Publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1556833188 source:y:\abm_pantalla\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556833188 y:\abm_pantalla\utn_strings.h
+
+1556833188 y:\abm_pantalla\pantalla.h
+
+1556833188 y:\abm_pantalla\publicidad.h
+
+1556833188 source:y:\abm_pantalla\pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:y:\abm_pantalla\publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:y:\abm_pantalla\utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/utn_strings.h
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/Pantalla.h
+
+1556833188 /home/alumno/Entregas/ABM_Pantalla/Publicidad.h
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/Pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/Publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Entregas/ABM_Pantalla/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1556833188 source:/home/alumno/Rolon/ABM_Pantalla/Pantalla.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556841417 /home/alumno/Rolon/ABM_Pantalla/Pantalla.h
+
+1556834285 /home/alumno/Rolon/ABM_Pantalla/Publicidad.h
+
+1556833188 /home/alumno/Rolon/ABM_Pantalla/utn_strings.h
+
+1556833188 source:/home/alumno/Rolon/ABM_Pantalla/utn_strings.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+
+1556833887 source:/home/alumno/Rolon/ABM_Pantalla/Publicidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Pantalla.h"
+	"Publicidad.h"
+	"utn_strings.h"
+
+1556841090 source:/home/alumno/Rolon/ABM_Pantalla/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn_strings.h"
+	"Pantalla.h"
+	"Publicidad.h"
+
