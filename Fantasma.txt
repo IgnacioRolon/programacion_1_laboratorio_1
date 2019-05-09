@@ -1,0 +1,13 @@
+En el fantasma reemplazar:
+
+FANTASMA por (nombre array nuevo todo mayuscula)
+Fantasma por (nombre array nuevo con primera mayuscula)
+fantasma por (nombre array nuevo todo minuscula)
+
+Por ejemplo:
+
+FANTASMA por AUTOR
+Fantasma por Autor
+fantasma por autor.
+
+Lo hago en el .h y en el .c (en el .c no estará todo mayuscula).

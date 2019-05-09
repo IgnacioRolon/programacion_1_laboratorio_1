@@ -1,6 +1,0 @@
-Struct asociado
-	idasociado, dni, nombre, apellido, edad, estado, llamados.
-
-Struct llamadas
-	idllamada, idasociado, motivo, estado, tiempo, id_ambulancia.
-
