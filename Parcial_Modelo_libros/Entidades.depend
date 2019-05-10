@@ -1,0 +1,168 @@
+# depslib dependency file v1.0
+1556427203 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556426217 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1556483107 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.h
+
+1556480949 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556480936 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\entidades.h
+
+1556427203 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556483107 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\utn.h
+
+1557013703 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\entidades.h
+
+1556483094 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557013694 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557001129 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557276041 source:/home/mauro/Descargas/FANTASMA/entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557276041 /home/mauro/Descargas/FANTASMA/utn.h
+
+1557276041 /home/mauro/Descargas/FANTASMA/entidades.h
+
+1557344320 source:/home/mauro/Descargas/FANTASMA/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344132 source:/home/mauro/Descargas/FANTASMA/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344877 source:/home/mauro/Descargas/FANTASMA/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557344437 source:/home/mauro/Descargas/FANTASMA/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557343987 /home/mauro/Descargas/FANTASMA/fantasma.h
+
+1557364490 source:/home/mauro/Descargas/Fantasma_v3/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557276040 /home/mauro/Descargas/Fantasma_v3/utn.h
+
+1557409455 /home/mauro/Descargas/Fantasma_v3/fantasma.h
+
+1557409735 source:/home/mauro/Descargas/Fantasma_v3/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344916 source:/home/mauro/Descargas/Fantasma_v3/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557419730 source:/home/mauro/Descargas/Fantasma_v3/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557364490 source:/home/profesor/Descargas/Fantasma_v4/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557276040 /home/profesor/Descargas/Fantasma_v4/utn.h
+
+1557439912 /home/profesor/Descargas/Fantasma_v4/fantasma.h
+
+1557344916 source:/home/profesor/Descargas/Fantasma_v4/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557441512 source:/home/profesor/Descargas/Fantasma_v4/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+	"autor.h"
+
+1557440146 source:/home/profesor/Descargas/Fantasma_v4/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557441075 source:/home/profesor/Descargas/Fantasma_v4/autor.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"autor.h"
+
+1557440708 /home/profesor/Descargas/Fantasma_v4/autor.h
+
