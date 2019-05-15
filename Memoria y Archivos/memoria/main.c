@@ -23,6 +23,7 @@ int main()
         printf("OK");
         for(int i=0;i<limite;i++)
         {
+            pArrayEmpleado[i] =  Emp_new();
             utn_getName("\nIngrese el nombre: ", "Error", 0, 50, 5, auxName);
             if(!Emp_setId(pArrayEmpleado[i],14)
                 && !Emp_setEstado(pArrayEmpleado[i], 1)
@@ -31,10 +32,11 @@ int main()
             {
                 Emp_getNombre(pArrayEmpleado[i], auxName);
                 printf("\nNombre: %s", auxName);
+                printf("Ingreso OK");
             }
         }
-        auxInt = Emp_compararPorNombre(pArrayEmpleado[0], pArrayEmpleado[1]);
-        printf("Comparacion: %d", auxInt);
+        //auxInt = Emp_compararPorNombre(pArrayEmpleado[0], pArrayEmpleado[1]);
+        //printf("Comparacion: %d", auxInt);
     }
 
 
