@@ -125,3 +125,34 @@
 	"utn.h"
 	"fantasma.h"
 
+1557869046 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557869046 /home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/utn.h
+
+1557869046 /home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/fantasma.h
+
+1557869046 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557869046 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557869046 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Fantasma_v4 (2)/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

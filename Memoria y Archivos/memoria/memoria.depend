@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1557879465 source:/home/profesor/Descargas/memoria/main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+
+1557879424 /home/profesor/Descargas/memoria/empleado.h
+
+1557879492 source:/home/profesor/Descargas/memoria/empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+
+1557881845 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"utn.h"
+
+1557881380 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.h
+
+1557869046 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557869046 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/utn.h
+
+1557880948 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+	"utn.h"
+	<string.h>
+
