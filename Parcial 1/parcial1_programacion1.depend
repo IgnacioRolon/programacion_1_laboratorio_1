@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1558050873 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+	"Musico.h"
+
+1558046557 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557869046 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/utn.h
+
+1558048109 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Orquesta.h"
+
+1558043980 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Orquesta.h
+
+1558046858 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Instrumentos.h
+
+1558048532 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Instrumentos.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Instrumentos.h"
+
+1558051444 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"Musico.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558050748 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/parcial1_programacion1/Musico.h
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558053494 source:/home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+	"Musico.h"
+
+1557869046 /home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/utn.h
+
+1558053369 /home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Orquesta.h
+
+1558046858 /home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Instrumentos.h
+
+1558052910 /home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Musico.h
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558046557 source:/home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1558052207 source:/home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Instrumentos.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Instrumentos.h"
+
+1558053353 source:/home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Musico.h"
+	"Orquesta.h"
+
+1558053306 source:/home/alumno/Rolon/parcial1_programacion1/parcial1_programacion1/Musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"Musico.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558463183 source:c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\instrumentos.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Instrumentos.h"
+
+1558463183 c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\utn.h
+
+1558463183 c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\instrumentos.h
+
+1558463183 source:c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+	"Musico.h"
+
+1558463183 c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\orquesta.h
+
+1558463183 c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\musico.h
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558463183 source:c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"Musico.h"
+	"Orquesta.h"
+	"Instrumentos.h"
+
+1558463183 source:c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Musico.h"
+	"Orquesta.h"
+
+1558463183 source:c:\users\ignir\desktop\escritorio\programacion\parcial1_programacion1\parcial1_programacion1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
