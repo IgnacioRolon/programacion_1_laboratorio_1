@@ -11,13 +11,14 @@
 	<stdlib.h>
 	"empleado.h"
 
-1557881965 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/main.c
+1558656667 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/main.c
 	<stdio.h>
+	<stdio_ext.h>
 	<stdlib.h>
-	"empleado.h"
+	"persona.h"
 	"utn.h"
 
-1557881380 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.h
+1558647994 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.h
 
 1557882307 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/utn.c
 	<stdio.h>
@@ -28,10 +29,19 @@
 
 1557869046 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/utn.h
 
-1557880948 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.c
+1558648007 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/empleado.c
 	<stdio.h>
 	<stdlib.h>
 	"empleado.h"
+	"utn.h"
+	<string.h>
+
+1558656704 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.h
+
+1558656057 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
 	"utn.h"
 	<string.h>
 

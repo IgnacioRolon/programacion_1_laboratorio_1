@@ -2,11 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "utn.h"
-#include "Musico.h"
-#include "Instrumentos.h"
-#include "informes.h"
-
-#define TEXT_SIZE 20
+#include "fantasma.h"  //cambiar por nombre entidad
 
 /** \brief Busca un valor y lista los elementos de dos arrays vinculados
 * \param arrayA Fantasma Array de Fantasma
@@ -17,7 +13,6 @@
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-/*
 int Informes_listarPorCriterio(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ, char* criterio)  //Valores de dos arrays. Si es valor repetido se vuelve a imprimir
 {
     int retorno=-1;
@@ -41,7 +36,6 @@ int Informes_listarPorCriterio(Fantasma arrayA[], Fantasma arrayB[], int sizeI, 
     }
     return retorno;
 }
-*/
 
 /** \brief Busca un valor repetido y lo lista una sola vez, junto con otros elementos de dos arrays vinculados
 * \param arrayA Fantasma Array de Fantasma
@@ -51,7 +45,6 @@ int Informes_listarPorCriterio(Fantasma arrayA[], Fantasma arrayB[], int sizeI, 
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-/*
 //Lista un campo que se repite, lo imprime una sola vez y calcula contador y acumulado
 int Informes_listarCriterioContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)         //cambiar Fantasma
 {
@@ -95,7 +88,6 @@ int Informes_listarCriterioContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[
     }
     return retorno;
 }
-*/
 
 /** \brief Busca un maximo de ocurrencia y acumulado
 * \param arrayA Fantasma Array de Fantasma
@@ -105,7 +97,6 @@ int Informes_listarCriterioContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-/*
 int Informes_maxContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)
 {
     int retorno=-1;
@@ -193,7 +184,7 @@ int Informes_maxContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int size
     }
     return retorno;
 }
-*/
+
 /** \brief Crea una entidad auxiliar para ordenar e informar XXXXX
 * \param arrayA Fantasma Array de Fantasma
 * \param arrayB Fantasma Array de Fantasma
@@ -202,7 +193,6 @@ int Informes_maxContadorAcumulado(Fantasma arrayA[], Fantasma arrayB[], int size
 * \return int Return (-1) si Error [Invalid length or NULL pointer] - (0) Ok
 *
 */
-/*
 int Informes_listarAuxiliarOrdenar(Fantasma arrayA[], Fantasma arrayB[], int sizeI, int sizeJ)         //cambiar Fantasma
 {
     int retorno=-1;
@@ -248,149 +238,4 @@ int Informes_listarAuxiliarOrdenar(Fantasma arrayA[], Fantasma arrayB[], int siz
     }
     return retorno;
 }
-*/
-int informes_ordenarInstrumentos(InstrumentoAuxiliar array[],int size)                              //cambiar musico
-{
-    int retorno=-1;
-    int i;
-    InstrumentoAuxiliar buffer;
-    int flagSwap;
-    if(array!=NULL && size>=0)
-    {
-        do
-        {
-            flagSwap=0;
-            for(i = 1; i < size-1; i++)
-            {
-                if( ((strcmp(array[i].nombre,array[i+1].nombre) < 0)))
-                {
-                    flagSwap=1;
-                    buffer = array[i];
-                    array[i] = array[i+1];
-                    array[i+1] = buffer;
-                }
-            }
-        }while(flagSwap);
-        retorno=0;
-    }
-    return retorno;
-}
 
-int informes_initInstrmentoAuxiliar(InstrumentoAuxiliar arrayAux[], int sizeArray)
-{
-    int i;
-    for(i=0;i<sizeArray;i++)
-    {
-        arrayAux[i].isEmpty = 1;
-        strcpy(arrayAux[i].nombre, " ");
-    }
-    return 0;
-}
-
-int informes_instrumentoMasUsado(Musico arrayMusicos[], InstrumentoAuxiliar arrayAux[], Instrumento arrayInstrumento[], int sizeArray)
-{
-    int retorno=-1;
-    int i,j;
-    int posicionAuxiliar = 0;
-    if(arrayMusicos!= NULL && sizeArray>=0 && arrayAux != NULL && arrayInstrumento != NULL)
-    {
-        informes_initInstrmentoAuxiliar(arrayAux, sizeArray);
-        for(i=0;i<sizeArray;i++)
-        {
-            if(arrayMusicos[i].isEmpty==1)
-                continue;
-            else
-            {
-                arrayAux[posicionAuxiliar].idInstrumento = arrayMusicos[i].idInstrumento;
-                arrayAux[posicionAuxiliar].isEmpty = 0;
-                for(j=0;j<20;j++)
-                {
-                    if(arrayAux[posicionAuxiliar].idInstrumento == arrayInstrumento[j].idUnico)
-                    {
-                        strcpy(arrayAux[posicionAuxiliar].nombre, arrayInstrumento[j].nombre);
-                        arrayAux[posicionAuxiliar].tipo = arrayInstrumento[j].tipo;
-                        break;
-                    }
-                }
-                posicionAuxiliar++;
-            }
-        }
-    }
-    informes_ordenarInstrumentos(arrayAux, sizeArray);
-    int contadorSeguidos = 0;
-    int contadorAuxiliar = 0;
-    char nombreRepetido[20];
-    char nombreSeguido[20];
-    int tipoSeguido;
-    for(i=0;i<sizeArray;i++)
-    {
-        if(i==0)
-        {
-            strncpy(nombreRepetido, arrayAux[i].nombre, 20);
-            contadorAuxiliar = 1;
-            continue;
-        }
-        if(!strncmp(nombreRepetido, arrayAux[i].nombre, 20))
-        {
-            contadorAuxiliar++;
-        }else{
-            if(contadorAuxiliar>contadorSeguidos)
-            {
-                contadorSeguidos = contadorAuxiliar;
-                strncpy(nombreSeguido, arrayAux[i-1].nombre, 20);
-                tipoSeguido = arrayAux[i-1].tipo;
-                retorno = 0;
-            }
-            contadorAuxiliar = 0;
-            strncpy(nombreRepetido, arrayAux[i].nombre, 20);
-        }
-        if(arrayAux[i].isEmpty == 1)
-        {
-            break; //Se hace break porque se sabe que todos estarán llenos hasta llegar a un isEmpty.
-        }
-    }
-    printf("El instrumento mas usado es %s, y es de tipo %d, encontrandose en %d musicos.", nombreSeguido, tipoSeguido, contadorSeguidos);
-    return retorno;
-}
-
-int informes_orquestasPorLugar(Orquesta array[], int sizeArray)
-{
-    int i;
-    int retorno = -1;
-    char bufferText[TEXT_SIZE];
-    char bufferTipo[TEXT_SIZE];
-    if(array != NULL && sizeArray >= 0)
-    {
-        if(utn_getTexto("\nIngrese el lugar de origen: ","\nError",1,TEXT_SIZE,1,bufferText))
-        {
-            printf("\nLugar de Origen invalido.\n");
-            return retorno;
-        }
-        for(i=0;i<sizeArray;i++)
-        {
-            if(array[i].lugar == bufferText)
-            {
-                switch(array[i].tipo)
-                {
-                    case 1:
-                        strcpy(bufferTipo, "Sinfonica");
-                        break;
-                    case 2:
-                        strcpy(bufferTipo, "Filarmonica");
-                        break;
-                    case 3:
-                        strcpy(bufferTipo, "Camara");
-                        break;
-                }
-                printf("\n ID: %d\n Tipo: %s\n Nombre: %s\n Lugar: %s\n",
-                       array[i].idUnico,bufferTipo,array[i].nombre,array[i].lugar);
-                retorno = 0;
-            }
-        }
-        if(retorno)
-        {
-            printf("No se ha encontrado ninguna orquesta de dicho lugar.");
-        }
-    }
-    return retorno;
-}

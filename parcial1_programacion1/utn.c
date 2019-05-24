@@ -72,7 +72,7 @@ int utn_getName(char* msg, char* msgError, int min, int max, int reintentos, cha
                 }
                 else
                 {
-                    printf("%s 2",msgError);
+                    printf("%s",msgError);
                     reintentos--;
                 }
             }
@@ -118,7 +118,7 @@ int utn_getUnsignedInt(  char* msg,char* msgError,int minSize,int maxSize,int mi
                 }
                 else
                 {
-                    printf("%s 2",msgError);
+                    printf("%s",msgError);
                     reintentos--;
                 }
             }
@@ -468,7 +468,7 @@ int utn_getTexto(char* msg, char* msgError, int minSize, int maxSize, int reinte
                 }
                 else
                 {
-                    printf("%s 2",msgError);
+                    printf("%s",msgError);
                     reintentos--;
                 }
             }
