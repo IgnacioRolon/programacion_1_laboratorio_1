@@ -48,7 +48,7 @@ int Pers_setIdAsString(Persona* this, char* id)
     int retorno = -1;
     if(this != NULL && id >= 0)
     {
-        if(!isValidNumber(id))
+        if(isValidNumber(id))
         {
             retorno = Pers_setId(this, atoi(id));
         }
@@ -65,7 +65,7 @@ int Pers_getIdAsString(Persona* this, char* resultado)
     int bufferId;
     if(this != NULL && resultado != NULL)
     {
-        Emp_getId(this, &bufferId);
+        Pers_getId(this, &bufferId);
         sprintf(resultado, "%d", bufferId);
         retorno = 0;
     }
@@ -187,17 +187,22 @@ int Pers_compararPorNombre(Persona* this1, Persona* this2)
     return retorno;
 }
 
-int Pers_setFromFile(Persona* this, char* id, char* nombre, char* apellido, char* estado)
+Persona* Pers_newStr(char* id, char* nombre, char* apellido, char* estado)
 {
-    int retorno = -1;
-    if(id != NULL && nombre != NULL && apellido != NULL && estado != NULL && this != NULL)
+    Persona* retorno = NULL;
+    Persona* pAuxEmpleado;
+    if(id != NULL && nombre != NULL && apellido != NULL && estado != NULL)
     {
-        if((this = Pers_new()) != NULL)
+        pAuxEmpleado = Pers_new();
+        if(pAuxEmpleado != NULL)
         {
-            if( !Pers_setIdAsString(this, id) && !Pers_setNombre(this, nombre) &&
-                !Pers_setApellido(this, apellido) && !Pers_setEstadoAsString(this, estado))
+            if( !Pers_setIdAsString(pAuxEmpleado, id) && !Pers_setNombre(pAuxEmpleado, nombre) &&
+                !Pers_setApellido(pAuxEmpleado, apellido) && !Pers_setEstadoAsString(pAuxEmpleado, estado))
             {
-                retorno = 0;
+                retorno = pAuxEmpleado;
+            }else
+            {
+                Pers_delete(pAuxEmpleado);
             }
         }
     }

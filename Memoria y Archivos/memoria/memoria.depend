@@ -11,7 +11,7 @@
 	<stdlib.h>
 	"empleado.h"
 
-1558656667 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/main.c
+1559086742 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/main.c
 	<stdio.h>
 	<stdio_ext.h>
 	<stdlib.h>
@@ -36,9 +36,9 @@
 	"utn.h"
 	<string.h>
 
-1558656704 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.h
+1559086759 /home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.h
 
-1558656057 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.c
+1559086729 source:/home/alumno/Rolon/programacion_1_laboratorio_1/Memoria y Archivos/memoria/persona.c
 	<stdio.h>
 	<stdlib.h>
 	"persona.h"

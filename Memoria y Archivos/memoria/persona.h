@@ -25,6 +25,6 @@ int Pers_setIdAsString(Persona* this, char* id);
 int Pers_getIdAsString(Persona* this, char* resultado);
 int Pers_setEstadoAsString(Persona* this, char* estado);
 int Pers_getEstadoAsString(Persona* this, char* resultado);
-int Pers_setFromFile(Persona* this, char* id, char* nombre, char* apellido, char* estado);
+Persona* Pers_newStr(char* id, char* nombre, char* apellido, char* estado);
 
 

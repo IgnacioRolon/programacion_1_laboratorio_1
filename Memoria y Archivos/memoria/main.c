@@ -7,9 +7,6 @@
 int main()
 {
     Persona *pArrayPersona[2000];
-    int ultimoElementoArrayPersona = 0;
-    //int limite = 2;
-    int indiceActual;
     int i = 0;
     int flag=0;
     char bufferId[50];
@@ -17,15 +14,15 @@ int main()
     char bufferApellido[50];
     char bufferEstado[50];
 
+    //int limite = 2;
+    //char auxName[50];
+    //char auxName2[50];
+
     FILE *pFile = NULL;
     pFile = fopen("data.csv", "r");
 
-    indiceActual = ultimoElementoArrayPersona;
-    pArrayPersona[indiceActual] =  Pers_new();
-
-    if(pFile != NULL && pArrayPersona[indiceActual] != NULL)
+    if(pFile != NULL)
     {
-        ultimoElementoArrayPersona++;
         while(!feof(pFile))
         {
             fscanf(pFile, "%[^,],%[^,],%[^,],%[^\n]\n", bufferId, bufferName, bufferApellido, bufferEstado);
@@ -34,15 +31,14 @@ int main()
                 flag++;
                 continue;
             }
-            if(pArrayPersona[i] = Pers_new() != NULL)
-            {
-                Pers_setFromFile(pArrayPersona[i], bufferId, bufferName, bufferApellido, bufferEstado);
-            }
+            pArrayPersona[i] = Pers_newStr(bufferId, bufferName, bufferApellido, bufferEstado);
             i++;
         }
+        fclose(pFile);
         Pers_getApellido(pArrayPersona[50], bufferApellido);
         printf("Apellido: %s", bufferApellido);
     }
+
 
 /*
     indiceActual = ultimoElementoArrayPersona;
@@ -73,7 +69,7 @@ int main()
         //auxInt = Pers_compararPorNombre(pArrayPersona[0], pArrayPersona[1]);
         //printf("Comparacion: %d", auxInt);
     }
-
 */
+
     return 0;
 }
