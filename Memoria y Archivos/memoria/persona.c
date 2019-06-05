@@ -208,13 +208,3 @@ Persona* Pers_newStr(char* id, char* nombre, char* apellido, char* estado)
     }
     return retorno;
 }
-
-int Pers_dump(Persona* this, FILE *pFile)
-{
-    int retorno = -1;
-    if(this != NULL && pFile != NULL)
-    {
-        fprintf(pFile, "id,first_name,last_name,is_empty\n");
-
-    }
-}
