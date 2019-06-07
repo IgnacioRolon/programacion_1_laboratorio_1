@@ -27,7 +27,7 @@ int main()
     //Employee* pEmpleado;
     LinkedList* listaEmpleados = ll_newLinkedList();
     do{
-        utn_getUnsignedInt("\n1) Cargar desde el archivo en modo texto\n2) Agregar Empleado\n3) Listar Empleados\n10) Salir\n", "ERROR: Ingrese un numero valido.", 0, 3, 0, 10, 1, &option);
+        utn_getUnsignedInt("\n1) Cargar desde el archivo en modo texto\n2) Agregar Empleado\n3) Listar Empleados\n4) Modificar Empleado\n5) Eliminar Empleado\n10) Salir\n", "ERROR: Ingrese un numero valido.", 0, 3, 0, 10, 1, &option);
         __fpurge(stdin);
         switch(option)
         {
@@ -39,6 +39,12 @@ int main()
                 break;
             case 3:
                 controller_ListEmployee(listaEmpleados);
+                break;
+            case 4:
+                controller_editEmployee(listaEmpleados);
+                break;
+            case 5:
+                controller_removeEmployee(listaEmpleados);
                 break;
         }
     }while(option != 10);

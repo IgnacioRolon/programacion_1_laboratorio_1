@@ -53,7 +53,7 @@
 	"LinkedList.h"
 	"Employee.h"
 
-1559695974 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/Controller.c
+1559864442 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/Controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -72,7 +72,7 @@
 	"utn.h"
 	<string.h>
 
-1559695956 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/main.c
+1559862578 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdio_ext.h>
@@ -81,7 +81,8 @@
 	"Employee.h"
 	"utn.h"
 
-1559693957 /home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/Controller.h
+1559864446 /home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/Controller.h
+	"Employee.h"
 
 1559690776 source:/home/alumno/Rolon/programacion_1_laboratorio_1/TP3/Linux_64/parser.c
 	<stdio.h>
