@@ -149,3 +149,51 @@
 1560452487 /home/nachsacred/programacion_1_laboratorio_1/TP3/Linux_64/Controller.h
 	"Employee.h"
 
+1560460961 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1560460961 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/LinkedList.h
+
+1560460961 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/Employee.h
+
+1560460961 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/parser.h
+
+1560460961 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/utn.h
+
+1560460961 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	"Employee.h"
+	"utn.h"
+	<string.h>
+
+1560460961 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1560460961 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/Controller.h
+	"Employee.h"
+
+1560460961 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1560460961 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/TP3/Linux_64/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
