@@ -213,12 +213,24 @@ int employee_getSueldoAsString(Employee* this, char* resultado)
     return retorno;
 }
 
-int employee_compararPorNombre(Employee* this1, Employee* this2)
+int employee_compararPorNombre(void* this1, void* this2)
 {
-    int retorno = -2;
+    int retorno = 0;
+    int compareResult;
+    char name1[4096];
+    char name2[4096];
+    employee_getNombre((Employee*)this1, name1);
+    employee_getNombre((Employee*)this2, name2);
     if(this1 != NULL && this2 != NULL)
     {
-        retorno = strncmp(this1->nombre, this2->nombre, sizeof(this1->nombre));
+        compareResult = strcmp(name1, name2);
+    }
+    if(compareResult > 0)
+    {
+        retorno = 1;
+    }else if(compareResult <0)
+    {
+        retorno = -1;
     }
     return retorno;
 }

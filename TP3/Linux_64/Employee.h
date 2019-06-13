@@ -30,4 +30,6 @@ int employee_getSueldo(Employee* this,int* resultado);
 int employee_setSueldoAsString(Employee* this, char* sueldo);
 int employee_getSueldoAsString(Employee* this, char* resultado);
 
+int employee_compararPorNombre(void* this1, void* this2);
+
 #endif // employee_H_INCLUDED
