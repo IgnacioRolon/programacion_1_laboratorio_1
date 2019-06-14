@@ -567,3 +567,26 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 }
 
+//reduce, filter y map
+
+LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
+{
+    LinkedList* returnAux;
+    int length;
+    int i;
+    void* pElement;
+    if(this != NULL && pFunc != NULL)
+    {
+        returnAux = ll_newLinkedList();
+        length = ll_len(this);
+        for(i=0;i<length;i++)
+        {
+            pElement = ll_get(this, i);
+            if(pFunc(pElement) == 1)
+            {
+                ll_add(returnAux, pElement);
+            }
+        }
+    }
+    return returnAux;
+}
