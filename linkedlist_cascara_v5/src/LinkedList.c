@@ -461,8 +461,8 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
         returnAux = 1;
         for(i=0;i<length;i++)
         {
-            pElement = ll_get(this, i);
-            flag = ll_contains(this2, pElement);
+            pElement = ll_get(this2, i);
+            flag = ll_contains(this, pElement);
             if(flag == 0)
             {
                 returnAux = 0;
@@ -486,7 +486,22 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
 LinkedList* ll_subList(LinkedList* this,int from,int to)
 {
     LinkedList* cloneArray = NULL;
-
+    int length;
+    int i;
+    void* pElement;
+    if(this != NULL && from >=0 && to>=from)
+    {
+        length = ll_len(this);
+        if(to <= length && from < length)
+        {
+            cloneArray = ll_newLinkedList();
+            for(i=from;i<to;i++)
+            {
+                pElement = ll_get(this, i);
+                ll_add(cloneArray, pElement);
+            }
+        }
+    }
     return cloneArray;
 }
 
@@ -501,7 +516,13 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
 LinkedList* ll_clone(LinkedList* this)
 {
     LinkedList* cloneArray = NULL;
-
+    int length;
+    if(this != NULL)
+    {
+        length = ll_len(this);
+        cloneArray = ll_newLinkedList();
+        cloneArray = ll_subList(this, 0, length);
+    }
     return cloneArray;
 }
 
@@ -516,7 +537,33 @@ LinkedList* ll_clone(LinkedList* this)
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
 {
     int returnAux =-1;
+    int i;
+    void* pElement1;
+    void* pElement2;
+    int flagSwap;
+    int length;
 
+    if(this!=NULL && order>=0 && pFunc != NULL)
+    {
+        length = ll_len(this);
+        do
+        {
+            flagSwap=0;
+            for (i = 0; i < length-1; i++)
+            {
+                pElement1 = ll_get(this, i);
+                pElement2 = ll_get(this, i + 1);
+                if( ((pFunc(pElement1, pElement2) < 0) && !order) ||
+                    ((pFunc(pElement1, pElement2) > 0) && order) )
+                {
+                    flagSwap=1;
+                    ll_set(this, i, pElement2);
+                    ll_set(this, i + 1, pElement1);
+                }
+            }
+        }while(flagSwap);
+        returnAux=0;
+    }
     return returnAux;
 }
 
