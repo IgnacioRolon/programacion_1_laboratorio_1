@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1560897834 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"parser.h"
+	"utn.h"
+
+1560897395 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/LinkedList.h
+
+1560897416 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Empleado.h
+
+1560893748 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/parser.h
+
+1560893748 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/utn.h
+
+1560897408 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Empleado.h"
+	<string.h>
+
+1560897342 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1560897540 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+
+1560893748 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1560897362 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Parser.c
+	"LinkedList.h"
+
+1560898062 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+
+1560897371 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Parser.h
+	"LinkedList.h"
+
+1560897376 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/Practica Parcial 2/EjercicioPre2doParcialV2/Controller.h
+	"Empleado.h"
+

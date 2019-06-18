@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1560895356 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1560893253 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/LinkedList.h
+
+1560895607 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controller.h"
+	"LinkedList.h"
+
+1560893904 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1560893748 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/Employee.h
+
+1560893748 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/parser.h
+
+1560893748 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/utn.h
+
+1560893748 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	"Employee.h"
+	"utn.h"
+	<string.h>
+
+1560893748 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1560893748 source:/home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1560894769 /home/alumno/Rolon/Copia/programacion_1_laboratorio_1/LinkedTest/LinkedTest/Controller.h
+	"Employee.h"
+	"LinkedList.h"
+
