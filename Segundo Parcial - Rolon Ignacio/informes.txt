@@ -1,0 +1,9 @@
+*****************************
+Informe de Ventas
+*****************************
+- Cantidad Total de Entregas: 1000
+- Cantidad de Entregas por Tipo: 364 (GOLD) - 325 (REGULAR) - 311 (PLUS)
+- Cantidad Total de Bultos Entregados: 49378
+- Promedio de Bultos por Entrega: 49.38
+- Importe promedio por Entrega: 547.34
+*****************************

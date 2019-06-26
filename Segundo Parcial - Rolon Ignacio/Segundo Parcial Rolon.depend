@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1561504369 source:/home/alumno/Rolon/EXAMEN/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"entregas.h"
+	"utn.h"
+
+1561503088 source:/home/alumno/Rolon/EXAMEN/entregas.c
+	<stdio.h>
+	<stdlib.h>
+	"entregas.h"
+	"utn.h"
+	<string.h>
+
+1561502862 /home/alumno/Rolon/EXAMEN/entregas.h
+
+1561500596 /home/alumno/Rolon/EXAMEN/utn.h
+
+1561504434 source:/home/alumno/Rolon/EXAMEN/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entregas.h"
+	"parser.h"
+	"utn.h"
+
+1561500529 /home/alumno/Rolon/EXAMEN/LinkedList.h
+
+1561502932 /home/alumno/Rolon/EXAMEN/parser.h
+
+1561500596 source:/home/alumno/Rolon/EXAMEN/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1561501525 source:/home/alumno/Rolon/EXAMEN/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561504575 source:/home/alumno/Rolon/EXAMEN/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entregas.h"
+
+1561504432 /home/alumno/Rolon/EXAMEN/Controller.h
+	"entregas.h"
+
+1561503088 source:/home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/entregas.c
+	<stdio.h>
+	<stdlib.h>
+	"entregas.h"
+	"utn.h"
+	<string.h>
+
+1561502862 /home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/entregas.h
+
+1561500596 /home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/utn.h
+
+1561501525 source:/home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561500529 /home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/LinkedList.h
+
+1561504369 source:/home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"entregas.h"
+	"utn.h"
+
+1561504432 /home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/Controller.h
+	"entregas.h"
+
+1561504575 source:/home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entregas.h"
+
+1561500596 source:/home/alumno/Rolon/parcial2_programacion1/Segundo Parcial - Rolon Ignacio/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1561507723 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entregas.h"
+	"parser.h"
+	"utn.h"
+
+1561508022 /home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/LinkedList.h
+
+1561507723 /home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/entregas.h
+
+1561507722 /home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/parser.h
+
+1561507723 /home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/utn.h
+
+1561507722 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/entregas.c
+	<stdio.h>
+	<stdlib.h>
+	"entregas.h"
+	"utn.h"
+	<string.h>
+
+1561508008 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561507930 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"entregas.h"
+	"utn.h"
+
+1561507723 /home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/Controller.h
+	"entregas.h"
+
+1561507722 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"entregas.h"
+
+1561507723 source:/home/profesor/Descargas/Segundo Parcial - Rolon Ignacio/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
